@@ -13,10 +13,11 @@ public class Venta {
 			super();
 			// TODO Auto-generated constructor stub
 		}
-		public Venta(int id, String emp, String prod,int cantidad ) {
+		public Venta(int id, String emp, String clien,String prod,int cantidad ) {
 			super();
 			this.id= id;
 			this.emp = emp;
+			this.prod = clien;
 			this.prod = prod;
 			this.cantidad = cantidad;
 		}
